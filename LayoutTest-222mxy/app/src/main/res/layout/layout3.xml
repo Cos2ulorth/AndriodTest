@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="88dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:id="@+id/imageView" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:weightSum="1">
+
+        <TextView
+            android:text="大连东软信息学院计算机系"
+            android:layout_width="264dp"
+            android:id="@+id/textView7"
+            android:textSize="18sp"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:text="\n你已经准备好了吗，成为一名优秀的学生"
+            android:layout_width="wrap_content"
+            android:id="@+id/textView6"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="93dp"
+        android:layout_height="75dp"
+        android:weightSum="1">
+
+        <TextView
+            android:text="9月21日"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:layout_weight="0.57" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="46dp"
+            app:srcCompat="@android:drawable/ic_lock_silent_mode"
+            android:id="@+id/imageView2" />
+    </LinearLayout>
+
+</LinearLayout>
