@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/menu1"
+    android:title="菜单1"
+    android:icon="@mipmap/ic_launcher"
+    app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menu2"
+        android:title="菜单2"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu3"
+        android:title="菜单3"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu4"
+        android:title="菜单4"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/menu5"
+                android:title="菜单5"
+                android:icon="@mipmap/ic_launcher"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/menu6"
+                android:title="菜单6"
+                android:icon="@mipmap/ic_launcher"
+                app:showAsAction="never"/>
+
+        </menu>
+
+    </item>
+</menu>
